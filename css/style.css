@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua');
+body{
+	width:100%;
+}
+.nav{
+	background-color:black;width:100%;height:50px;
+	margin:-12px 0px 0px -7px;
+}
+.collapse{
+display: flex;
+flex-wrap: wrap;
+padding:20px;
+font-size:20px;
+font-style:'Modern Antiqua', cursive;
+text-align:left;
+width:200px;
+background-color:#EEEEEE;
+border: 2px solid rgb(236, 229, 229);
+transition: 0.4s;
+}
+.collapse:hover{
+	cursor: -webkit-grab;
+	 cursor: grab;
+	 background-color:#ccc;
+}
+@media only screen and (min-width: 601px) {
+	.collapse {
+	  font-size: 20px;
+	}
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+	.collapse {
+	  font-size: 20px;
+	}
+	}
+	
